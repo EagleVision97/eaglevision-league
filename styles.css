@@ -53,3 +53,33 @@ footer {
     width: 100%;
     bottom: 0;
 }
+/* Log Standings Section */
+.standings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.standings-table th, 
+.standings-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.standings-table th {
+    background-color: #00274d;
+    color: white;
+    font-weight: bold;
+}
+
+.standings-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.standings-table tr:hover {
+    background-color: #e0e0e0;
+}
