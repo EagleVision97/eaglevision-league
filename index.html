@@ -3,26 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | EagleVision Social League</title>
+    <title>EagleVision Social League</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>EagleVision Social League</h1>
-        <p>Uniting Communities Through Football</p>
-    </header>
+    <!-- Fixed Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#teams">Teams & Divisions</a></li>
+            <li><a href="#fixtures">Fixtures & Results</a></li>
+            <li><a href="#news">News & Updates</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
 
-    <section id="upcoming-fixtures">
-        <h2>Upcoming Fixtures</h2>
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to EagleVision Social League</h1>
+        <p>Uniting Communities Through Football</p>
+    </section>
+
+    <!-- Teams & Divisions Section -->
+    <section id="teams">
+        <h2>Teams & Divisions</h2>
+        <ul>
+            <li><strong>North Division:</strong> North Stars, Polar Bears</li>
+            <li><strong>South Division:</strong> South Warriors, Desert Hawks</li>
+            <li><strong>East Division:</strong> East Eagles, Lightning Bolts</li>
+            <li><strong>West Division:</strong> West Titans, Iron Giants</li>
+        </ul>
+    </section>
+
+    <!-- Fixtures & Results Section -->
+    <section id="fixtures">
+        <h2>Fixtures & Results</h2>
         <ul>
             <li>North Stars vs South Warriors – 30 Oct 2024</li>
             <li>East Eagles vs West Titans – 2 Nov 2024</li>
         </ul>
+        <p>Latest Results: North Stars 2-1 Polar Bears</p>
     </section>
 
-    <section id="carousel">
-        <h2>Top Teams & Sponsors</h2>
-        <p>Carousel of top teams and sponsors will go here (future update).</p>
+    <!-- News & Updates Section -->
+    <section id="news">
+        <h2>News & Updates</h2>
+        <p>The 2024 season kicks off on 30th October! Don't miss it.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Match moments will be showcased here soon.</p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
     <footer>
