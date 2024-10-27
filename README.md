@@ -1,16 +1,28 @@
 # EagleVision Social League
 
 Welcome to the **EagleVision Social League** website!  
-Our mission is to bring communities together through the love of football, with teams from across North, South, East, and West Gaborone.
+Our mission is to unite communities in Gaborone through the passion of football. Teams from the North, South, East, and West divisions come together to compete for glory!
 
-## Features
-- **Upcoming Fixtures:** Stay updated with the latest matches and results.
-- **Teams:** Explore the teams participating in the league.
-- **News & Updates:** Get the latest announcements and highlights.
+## 🌟 Website Pages
+- **[Home](https://EagleVision97.github.io/eaglevision-league/index.html)**: Explore the league's vision and upcoming fixtures.
+- **[Teams & Divisions](https://EagleVision97.github.io/eaglevision-league/teams.html)**: Discover the teams competing in each region.
+- **[Fixtures & Results](https://EagleVision97.github.io/eaglevision-league/fixtures.html)**: Stay updated with schedules and match results.
+- **[News & Updates](https://EagleVision97.github.io/eaglevision-league/news.html)**: Get the latest announcements and stories.
+- **[Gallery](https://EagleVision97.github.io/eaglevision-league/gallery.html)**: Relive the best moments from our matches and events.
+- **[Contact Us](https://EagleVision97.github.io/eaglevision-league/contact.html)**: Reach out for inquiries and collaborations.
 
-## How to Access
-Visit the website here: [EagleVision Social League](https://EagleVision97.github.io/eaglevision-league)
+## 🎨 Design & Branding
+- **Color Scheme:** Dark Blue + Gold + White, reflecting the spirit of the eagle.
+- **Future Enhancements:** Adding photo galleries, dynamic schedules, and more features.
+
+## 📈 SEO & Analytics (Future Updates)
+- **Yoast SEO:** Optimizing the website for search engines.
+- **Google Analytics:** Tracking website traffic and engagement.
+
+## 💬 Contact
+Have questions or want to collaborate? Head over to the [Contact Us page](https://EagleVision97.github.io/eaglevision-league/contact.html) or send us a message directly.
 
 ---
 
-Thank you for supporting the league!
+Thank you for supporting the **EagleVision Social League**!  
+Together, we fly higher 🦅⚽.
