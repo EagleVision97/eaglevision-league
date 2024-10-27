@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,15 +7,37 @@ body {
     color: #333;
 }
 
-header {
+/* Fixed Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #00274d;
-    color: white;
+    padding: 10px;
     text-align: center;
-    padding: 20px;
+    z-index: 1000;
 }
 
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Sections */
 section {
-    margin: 20px;
+    margin: 80px 20px; /* Adds space below the fixed navbar */
     padding: 15px;
     background-color: white;
     border-radius: 8px;
