@@ -6,6 +6,21 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+/* Logo Styling */
+.logo img {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: auto;
+    z-index: 1000;
+    border-radius: 50%; /* Optional rounded shape */
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
 
 /* Fixed Navigation Bar */
 .navbar {
