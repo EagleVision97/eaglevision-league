@@ -1,161 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EagleVision Social League</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>Premier League Football News, Fixtures, Scores & Results</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png">
+
+  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
-    <!-- Logo Section -->
-<a href="index.html" class="logo">
-    <img src="assets/logo.png" alt="EagleVision Logo" />
-</a>
+  <body>
+    <div id="top_banner">
 
-<body>
-    <!-- Fixed Navigation Bar -->
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#teams">Teams & Divisions</a></li>
-            <li><a href="#fixtures">Fixtures & Results</a></li>
-            <li><a href="#news">News & Updates</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </nav>
+      <p id="top_banner_text">Club sites:</p>
+        <a href="http://www.afcb.co.uk" target="_blank"><img src="teams/team1.png" class="teams" id="team1"></a>
+        <a href="http://www.arsenal.com" target="_blank"><img src="teams/team2.png" class="teams"></a>
+        <a href="http://www.burnleyfootballclub.com" target="_blank"><img src="teams/team3.png" class="teams"></a>
+        <a href="http://www.chelseafc.com" target="_blank"><img src="teams/team4.png" class="teams"></a>
+        <a href="http://www.cpfc.co.uk" target="_blank"><img src="teams/team5.png" class="teams"></a>
+        <a href="http://www.evertonfc.com" target="_blank"><img src="teams/team6.png" class="teams"></a>
+        <a href="http://www.hullcitytigers.com" target="_blank"><img src="teams/team7.png" class="teams"></a>
+        <a href="http://www.lcfc.com" target="_blank"><img src="teams/team8.png" class="teams"></a>
+        <a href="http://www.liverpoolfc.com" target="_blank"><img src="teams/team9.png" class="teams"></a>
+        <a href="https://www.mancity.com" target="_blank"><img src="teams/team10.png" class="teams"></a>
+        <a href="http://www.manutd.com" target="_blank"><img src="teams/team11.png" class="teams"></a>
+        <a href="http://www.mfc.co.uk" target="_blank"><img src="teams/team12.png" class="teams"></a>
+        <a href="https://southamptonfc.com" target="_blank"><img src="teams/team13.png" class="teams"></a>
+        <a href="http://www.stokecityfc.com" target="_blank"><img src="teams/team14.png" class="teams"></a>
+        <a href="http://www.safc.com" target="_blank"><img src="teams/team15.png" class="teams"></a>
+        <a href="http://www.swanseacity.net" target="_blank"><img src="teams/team16.png" class="teams"></a>
+        <a href="http://www.tottenhamhotspur.com" target="_blank"><img src="teams/team17.png" class="teams"></a>
+        <a href="https://www.watfordfc.com" target="_blank"><img src="teams/team18.png" class="teams"></a>
+        <a href="http://www.wba.co.uk" target="_blank"><img src="teams/team19.png" class="teams"></a>
+        <a href="http://www.whufc.com" target="_blank"><img src="teams/team20.png" class="teams"></a>
 
-    <!-- Home Section -->
-    <section id="home">
-        <h1>Welcome to EagleVision Social League</h1>
-        <p>Uniting Communities Through Football</p>
-    </section>
+    </div>
+    <div id="bottom_banner">
 
-    <!-- Teams & Divisions Section -->
-    <section id="teams">
-        <h2>Teams & Divisions</h2>
-        <ul>
-            <li><strong>North Division:</strong> North Stars, Polar Bears</li>
-            <li><strong>South Division:</strong> South Warriors, Desert Hawks</li>
-            <li><strong>East Division:</strong> East Eagles, Lightning Bolts</li>
-            <li><strong>West Division:</strong> West Titans, Iron Giants</li>
-        </ul>
-    </section>
+      <div id="menu1" class="menu1">
+        <a href="index.html"><h1>Premier League</h1></a>
+      </div>
+      <div id="menu1" class="menu1_1">
+        <h1>Fantasy</h1>
+      </div>
+      <div id="menu1" class="menu1_1">
+        <h1>Stats</h1>
+      </div>
+      <div id="menu1" class="menu1_1">
+        <h1>Videos</h1>
+      </div>
+      <div id="menu1" class="menu1_1">
+        <h1>Communities</h1>
+      </div>
+      <div id="menu1" class="menu1_1">
+        <h1>More</h1>
+      </div>
+      <div id="menu1" class="menu1_2">
+        <a href="signin.html"><h1>Sign In</h1></a>
+      </div>
 
-    <!-- Fixtures & Results Section -->
-    <section id="fixtures">
-        <h2>Fixtures & Results</h2>
-        <ul>
-            <li>North Stars vs South Warriors – 30 Oct 2024</li>
-            <li>East Eagles vs West Titans – 2 Nov 2024</li>
-        </ul>
-        <p>Latest Results: North Stars 2-1 Polar Bears</p>
-    </section>
-    <!-- Log Standings Section -->
-<section id="standings">
-    <li><a href="#standings">Log Standings</a></li>
-    <h2>League Standings</h2>
-    <table class="standings-table">
-        <thead>
-            <tr>
-                <th>Position</th>
-                <th>Team</th>
-                <th>Played</th>
-                <th>Won</th>
-                <th>Drawn</th>
-                <th>Lost</th>
-                <th>Points</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>North Stars</td>
-                <td>5</td>
-                <td>4</td>
-                <td>1</td>
-                <td>0</td>
-                <td>13</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>East Eagles</td>
-                <td>5</td>
-                <td>3</td>
-                <td>1</td>
-                <td>1</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>West Titans</td>
-                <td>5</td>
-                <td>3</td>
-                <td>0</td>
-                <td>2</td>
-                <td>9</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>South Warriors</td>
-                <td>5</td>
-                <td>2</td>
-                <td>1</td>
-                <td>2</td>
-                <td>7</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Polar Bears</td>
-                <td>5</td>
-                <td>1</td>
-                <td>2</td>
-                <td>2</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Lightning Bolts</td>
-                <td>5</td>
-                <td>0</td>
-                <td>1</td>
-                <td>4</td>
-                <td>1</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
+    </div>
 
-    <!-- News & Updates Section -->
-    <section id="news">
-        <h2>News & Updates</h2>
-        <p>The 2024 season kicks off on 30th October! Don't miss it.</p>
-    </section>
+    <div id="navigation">
+      <div id="menu2" class="menu2_1">
+            <a href="index.html"><h1>Home</h1></a>
+          </div>
+          <div id="menu2" class="menu2_2">
+            <h1>Fixtures</h1>
+          </div>
+          <div id="menu2" class="menu2_2">
+            <h1>Results</h1>
+          </div>
+          <div id="menu2" class="menu2_2">
+            <a href="table.html"><h1>Table</h1></a>
+          </div>
+          <div id="menu2" class="menu2_2">
+            <h1>Broadcast</h1>
+          </div>
+          <div id="menu2" class="menu2_2">
+            <h1>Tickets</h1>
+          </div>
+          <div id="menu2" class="menu2_2">
+            <h1>Clubs</h1>
+          </div>
+          <div id="menu2" class="menu2_2">
+            <h1>Players</h1>
+          </div>
+          <div id="menu2" class="menu2_2">
+            <h1>Manager</h1>
+          </div>
+          <div id="menu2" class="menu2_2">
+            <h1>News</h1>
+          </div>
+          <div id="menu2" class="menu2_2">
+            <h1>Social</h1>
+          </div>
+      </div>
+    </div>
+    <a href="index.html"><img src="logo.svg" id="logo"/></a>
 
-    <!-- Gallery Section -->
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <p>Match moments will be showcased here soon.</p>
-    </section>
+    <div id="body">
 
-    <!-- Contact Us Section -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form action="#">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br>
+      <div id="fixtures_top">
+      </div>
+      <div id="fixtures">
+        <h1>Matchweek 30</h1>
+        <img src="logo_two.png" >
+        <h2>All times shown are your local time</h2>
+        <h3>Wednesday, 5 April</h2>
+          <div id="fixture1">
+            <div id="fixture1_time">
+              1-3
+            </div>
+          </div>
+          <div id="fixture2">
+            <div id="fixture2_time">
+              4-2
+            </div>
+          </div>
+          <div id="fixture3">
+            <div id="fixture3_time">
+              00:30
+            </div>
+          </div>
+          <div id="fixture4">
+            <div id="fixture4_time">
+              00:30
+            </div>
+          </div>
+          <div id="fixture5">
+            <div id="fixture5_time">
+              01:30
+            </div>
+          </div>
+          <div id="fixture6">
+            <div id="fixture6_time">
+              01:30
+            </div>
+          </div>
+          <div id="fixture7">
+            <div id="fixture7_time">
+              02:30
+            </div>
+          </div>
+          <div id="fixture8">
+            <div id="fixture8_time">
+              02:30
+            </div>
+          </div>
+          <div id="fixture9">
+            <div id="fixture9_time">
+              03:30
+            </div>
+          </div>
+      </div>
+      <div id="news_background">
+        <img src="cr7.jpg" id="news_image" />
+        <h1 id="news_heading">'Cristiano Ronaldo back to The Red Devils?'</h1>
+        <p id="news_content">According to Marca, a Spanish daily sports newspaper, the Portuguese international is considering a move to his former club.</p>
+      </div>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
+      <img src="teams/team11.png" id="fixture1_team1">
+      <img src="teams/team4.png" id="fixture1_team2">
+      <img src="teams/team10.png" id="fixture2_team1">
+      <img src="teams/team9.png" id="fixture2_team2">
+      <img src="teams/team1.png" id="fixture3_team1">
+      <img src="teams/team2.png" id="fixture3_team2">
+      <img src="teams/team3.png" id="fixture4_team1">
+      <img src="teams/team5.png" id="fixture4_team2">
+      <img src="teams/team6.png" id="fixture5_team1">
+      <img src="teams/team7.png" id="fixture5_team2">
+      <img src="teams/team8.png" id="fixture6_team1">
+      <img src="teams/team12.png" id="fixture6_team2">
+      <img src="teams/team13.png" id="fixture7_team1">
+      <img src="teams/team14.png" id="fixture7_team2">
+      <img src="teams/team15.png" id="fixture8_team1">
+      <img src="teams/team16.png" id="fixture8_team2">
+      <img src="teams/team17.png" id="fixture9_team1">
+      <img src="teams/team18.png" id="fixture9_team2">
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br>
+      <div id="news_below">
+        <img src="teams/team11.png" id="manutd" />
+        <p id="manutd_text">Manchester United news</p>
+        <img src="fifa.png" id="fifa" />
+        <p id="fifa_text">Transfer news</p>
+        <img src="marca.png" id="marca" />
+        <p id="marca_text">Marca news</p>
+      </div>
 
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+    </div>
 
-    <footer>
-        <p>Copyright © 2024 EagleVision Social League</p>
-    </footer>
-</body>
+    <a href="http://www.manutd.com/" target="_blank"><div id="click1"></div></a>
+    <a href="http://www.fifa.com/" target="_blank"><div id="click2"></div></a>
+    <a href="http://www.marca.com/en/" target="_blank"><div id="click3"></div></a>
+
+  </body>
 </html>
